@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class RewardTierToCsv {
-    private final Path path = Paths.get("./Project.csv");
+    private final Path path = Paths.get("./RewardTier.csv");
 
     //get all reward tier from csv
     public List<RewardTier_Model> findAll() throws Exception{
